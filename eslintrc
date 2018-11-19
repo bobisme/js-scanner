@@ -1,0 +1,16 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "xss"
+    ],
+    "rules": {
+        "xss/no-mixed-html": 2,
+        "xss/no-location-href-assign": 2
+    }
+}
